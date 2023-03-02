@@ -1,0 +1,129 @@
+/* Parámetros generales */
+:root {
+  --main-color: #2196f3;
+  --banner-color: #2f303a;
+  --text-black: #212121;
+  --text-grey: #757575;
+}
+.header-logo {
+  color: var(--main-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 24px;
+}
+.header-list-nav {
+  list-style: none;
+  padding: 0;
+}
+.header-item-nav > .header-link {
+  color: var(--text-black);
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.header-item-nav > .header-link:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.header-list-address {
+  list-style: none;
+  padding: 0;
+}
+.header-item-address > .header-link {
+  color: var(--text-grey);
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+/* Animación de cursor */
+.header-item-address > .header-link:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.main-banner {
+  background: var(--banner-color);
+}
+.title {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin: 0%;
+}
+.button-title {
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.button-title:hover {
+  cursor: pointer;
+}
+.section-subtitles {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 12px;
+}
+.section-paragraph {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-grey);
+  font-weight: 400;
+  font-size: 10px;
+}
+.second-section-subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.second-section-list-images {
+  list-style: none;
+}
+.third-section-subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.team-names {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 12px;
+}
+.team-names-post {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-grey);
+  font-weight: 400;
+  font-size: 10px;
+}
+.footer-main {
+  background-color: var(--banner-color);
+}
+.footer-address {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+}
+.footer-main-list {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.footer-link {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-grey);
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration: none;
+}

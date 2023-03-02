@@ -1,1 +1,1 @@
-https://brayantmalagon.github.io/goit-markup-hw-01/
+https://brayantmalagon.github.io/goit-markup-hw-02/
