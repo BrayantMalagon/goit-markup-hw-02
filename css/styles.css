@@ -127,3 +127,34 @@
   font-size: 10px;
   text-decoration: none;
 }
+.section-menu-portfolio {
+  list-style: none;
+  text-align: center;
+}
+.button-title-menu {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 10px;
+  text-decoration: none;
+  background-color: #f5f4fa;
+  border-color: white;
+}
+.button-title-menu:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: white;
+}
+.second-section-list-portfolio {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 0%;
+}
+.item-portfolio {
+  font-size: 12px;
+  font-weight: 700;
+}
+.item-portfolio-description {
+  font-size: 10px;
+  font-weight: 400;
+}
